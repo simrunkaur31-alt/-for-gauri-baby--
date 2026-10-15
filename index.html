@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f5">
+<title>For Gauri Baby ♡</title>
+<style>
+:root{--pink:#f6a9c5;--hot:#d95f91;--rose:#9e4269;--cream:#fff8fb;--ink:#593447;--line:#f4cddd}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font-family:"Trebuchet MS",system-ui,sans-serif;background:radial-gradient(circle at 10% 5%,#ffe0ec 0,transparent 26rem),radial-gradient(circle at 90% 35%,#ffeaf2 0,transparent 25rem),#fff8fb;overflow-x:hidden}
+button,a{font:inherit}
+a{color:var(--rose)}
+.top{position:relative;text-align:center;padding:58px 18px 44px;overflow:hidden}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;color:var(--hot);font-weight:800}
+h1{font-family:Georgia,serif;font-weight:500;font-size:clamp(2.8rem,10vw,5.6rem);line-height:.98;margin:16px auto;color:#a74470}
+h1 span{font-style:italic;color:#d96b9b}
+.subtitle{max-width:520px;margin:18px auto;color:#85556c;line-height:1.7}
+.pill{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:99px;padding:10px 16px;color:#a74470;font-size:.9rem;box-shadow:0 8px 24px #d95f9110}
+.bow{font-size:2rem;display:block;animation:bob 2.8s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-7px) rotate(4deg)}}
+.float{position:absolute;opacity:.6;pointer-events:none;animation:drift 8s ease-in-out infinite}
+.float:nth-of-type(1){left:8%;top:22%;font-size:2rem}.float:nth-of-type(2){right:8%;top:27%;font-size:1.8rem;animation-delay:-3s}.float:nth-of-type(3){right:17%;bottom:12%;font-size:1.2rem;animation-delay:-1s}
+nav{position:sticky;top:0;z-index:5;display:flex;justify-content:center;gap:7px;flex-wrap:wrap;padding:10px;background:#fff8f0d9;backdrop-filter:blur(12px);border-block:1px solid #f6dce7}
+nav a{text-decoration:none;font-size:.82rem;padding:8px 11px;border-radius:99px;color:#98516f}nav a:hover{background:#ffe2ed}
+main{max-width:980px;margin:auto;padding:22px 16px 70px}
+section{margin:24px 0;padding:clamp(20px,5vw,36px);border:1px solid #f5d5e2;background:#ffffffc9;border-radius:28px;box-shadow:0 12px 40px #b14c7410}
+.section-kicker{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--hot);font-weight:800}
+h2{font-family:Georgia,serif;font-weight:500;font-size:clamp(1.8rem,5vw,2.6rem);margin:8px 0 12px;color:#9e4269}
+.lead{line-height:1.7;color:#85556c}
+.btn{border:0;background:var(--hot);color:#fff;border-radius:99px;padding:13px 19px;cursor:pointer;font-weight:800;box-shadow:0 8px 18px #d95f9125;transition:transform .18s,background .18s}
+.btn:hover{transform:translateY(-2px);background:#bf4d7d}
+.btn.secondary{background:#fff0f6;color:#a74470;border:1px solid var(--line);box-shadow:none}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.reasonbox{min-height:125px;display:grid;place-items:center;text-align:center;background:linear-gradient(135deg,#fff0f6,#fff9fc);border:1px dashed #e9a9c4;border-radius:22px;padding:22px;margin-top:20px}
+#reason{font-family:Georgia,serif;font-size:clamp(1.25rem,4vw,1.8rem);line-height:1.45;color:#a74470}
+.small{font-size:.85rem;color:#9b7184;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+.memory{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff9fc}
+.photo{height:180px;display:grid;place-items:center;text-align:center;padding:12px;background:linear-gradient(145deg,#ffe4ee,#fff4f8);color:#b35c82;font-size:2rem}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.memory p{padding:0 13px 13px;line-height:1.5;font-size:.9rem;margin:10px 0 0}
+.memory strong{display:block;color:#a74470;margin-bottom:4px}
+.quiz-q{background:#fff7fa;border:1px solid var(--line);border-radius:18px;padding:16px;margin:14px 0}
+.quiz-q p{font-weight:800;margin:0 0 12px}
+.option{display:block;margin:8px 0;padding:10px 12px;border:1px solid #f0cada;border-radius:12px;cursor:pointer;background:#fff}
+.option:has(input:checked){background:#ffe4ef;border-color:#d96b9b}
+.option input{accent-color:#d95f91;margin-right:8px}
+#quiz-result{font-weight:800;line-height:1.7;margin-top:14px;color:#a74470}
+.music-card{display:flex;gap:16px;align-items:center;flex-wrap:wrap;background:linear-gradient(120deg,#fff0f6,#fffafc);padding:18px;border-radius:20px;border:1px solid var(--line);margin-top:18px}
+.disc{width:82px;height:82px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle,#fff 0 10%,#d96b9b 11% 20%,#f5b5ce 21% 100%);font-size:1.5rem;box-shadow:0 6px 20px #d95f9125;flex-shrink:0}
+.music-copy{flex:1;min-width:170px}
+input[type=url],input[type=text]{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);margin:7px 0 12px}
+.letter{font-family:Georgia,serif;font-size:1.12rem;line-height:1.9;color:#75445c;white-space:pre-line}
+footer{text-align:center;padding:28px 18px 42px;color:#a36b83;font-size:.9rem}
+footer .heart{color:#d95f91}
+@media(max-width:680px){.grid{grid-template-columns:1fr}.photo{height:230px}nav{gap:2px}nav a{font-size:.76rem;padding:8px}.top{padding-top:44px}section{border-radius:22px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="float">♡</span><span class="float">✧</span><span class="float">୨୧</span>
+  <span class="bow">🎀</span>
+  <div class="eyebrow">a tiny corner of the internet</div>
+  <h1>For my<br><span>Gauri Baby</span> ♡</h1>
+  <p class="subtitle">Gaurav, I made you a little place filled with the things I don't say enough, the things that make me laugh, and all the tiny reasons it's you. Always you.</p>
+  <span class="pill">made with love, just for you 💌</span>
+</header>
+<nav aria-label="Page sections">
+  <a href="#reasons">Reasons ♡</a><a href="#memories">Our memories 📸</a><a href="#quiz">Little quiz 🎀</a><a href="#song">Our song 🎧</a><a href="#letter">A note 💌</a>
+</nav>
+<main>
+<section id="reasons">
+  <div class="section-kicker">chapter one · tiny truths</div>
+  <h2>Reasons I love you</h2>
+  <p class="lead">One button. One little reminder. An unlimited amount of feelings (and a slightly dramatic girlfriend).</p>
+  <div class="reasonbox"><div id="reason" aria-live="polite">Because even an ordinary day feels a little more special when I get to talk to you. ♡</div></div>
+  <div class="btnrow"><button class="btn" id="reasonBtn">Give me another reason 💗</button><button class="btn secondary" id="copyReason">Copy this one</button></div>
+  <p class="small">P.S. Add your own inside jokes and specific memories to the list in the code whenever you want.</p>
+</section>
+
+<section id="memories">
+  <div class="section-kicker">chapter two · our little archive</div>
+  <h2>Moments I want to keep</h2>
+  <p class="lead">These are starter cards. Replace the picture areas with your own photos and change the captions to memories only you two understand.</p>
+  <div class="grid">
+    <article class="memory"><div class="photo">📸<br><span style="font-size:.8rem">your favourite photo goes here</span></div><p><strong>The one I keep coming back to</strong>That smile. That face. You know exactly which photo. ♡</p></article>
+    <article class="memory"><div class="photo">💬<br><span style="font-size:.8rem">a screenshot / chat memory</span></div><p><strong>An ordinary little moment</strong>Somehow, even the smallest conversations become my favourite memories.</p></article>
+    <article class="memory"><div class="photo">🌙<br><span style="font-size:.8rem">a call / date / silly moment</span></div><p><strong>My favourite kind of chaos</strong>One of those moments that would make absolutely no sense to anyone else.</p></article>
+  </div>
+  <p class="small">To add real photos: upload them to the same GitHub repository as this page, then replace each coloured photo box with an image tag. The guide below explains how.</p>
+</section>
+
+<section id="quiz">
+  <div class="section-kicker">chapter three · pop quiz, baby</div>
+  <h2>How well do you know us? 🎀</h2>
+  <p class="lead">No pressure, Gaurav. This test is extremely serious and definitely not made by a girlfriend who wants attention.</p>
+  <form id="quizForm">
+    <div class="quiz-q"><p>1. What is your official girlfriend-approved nickname?</p>
+      <label class="option"><input type="radio" name="q1" value="0" required> Gaurav</label>
+      <label class="option"><input type="radio" name="q1" value="1"> GAURI BABY 💗</label>
+      <label class="option"><input type="radio" name="q1" value="0"> Sir, please</label>
+    </div>
+    <div class="quiz-q"><p>2. What is the correct response when I say “I miss you”?</p>
+      <label class="option"><input type="radio" name="q2" value="0" required> “Okay.”</label>
+      <label class="option"><input type="radio" name="q2" value="1"> “I miss you more, baby.”</label>
+      <label class="option"><input type="radio" name="q2" value="0"> Send a formal email</label>
+    </div>
+    <div class="quiz-q"><p>3. What is this website's main purpose?</p>
+      <label class="option"><input type="radio" name="q3" value="0" required> A college assignment</label>
+      <label class="option"><input type="radio" name="q3" value="0"> A government portal</label>
+      <label class="option"><input type="radio" name="q3" value="1"> To remind you that you are loved, silly ♡</label>
+    </div>
+    <button class="btn" type="submit">Submit my very important answers ✨</button>
+  </form>
+  <div id="quiz-result" aria-live="polite"></div>
+</section>
+
+<section id="song">
+  <div class="section-kicker">chapter four · press play on us</div>
+  <h2>A song that feels like you 🎧</h2>
+  <p class="lead">Add your song or a playlist so this little corner has its own soundtrack.</p>
+  <div class="music-card"><div class="disc">♫</div><div class="music-copy"><strong>Our little soundtrack</strong><p class="small" style="margin:6px 0">A song, a memory, and you on my mind.</p><a id="songLink" href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">Open our song ♡ ↗</a></div></div>
+  <label for="songUrl" class="small">Paste a Spotify, YouTube, or playlist link to preview your button (then save it in the code before publishing):</label>
+  <input type="url" id="songUrl" placeholder="https://open.spotify.com/...">
+  <div class="btnrow"><button class="btn secondary" id="previewSong">Preview song link</button></div>
+  <p class="small">The page won't play audio automatically. He can tap the link to open your song or playlist.</p>
+</section>
+
+<section id="letter">
+  <div class="section-kicker">the last page · but never the last word</div>
+  <h2>One tiny note for you 💌</h2>
+  <div class="letter">Dear Gaurav,
+
+If I could give you one thing, it would be the chance to see yourself the way I see you. Maybe then you'd understand why the smallest things you do can make me so happy.
+
+You're my favourite notification, my favourite person to annoy, and one of the loveliest parts of my days. Even when we're far apart, I carry little pieces of you with me — a joke, a memory, a song, a message that makes me smile at my phone like a complete idiot.
+
+I can't promise I'll always find the perfect words. But I can promise that the feelings behind them are real. Thank you for being you, GAURI BABY. ♡
+
+Yours, with a million tiny hearts,
+your girl 🎀</div>
+  <div class="btnrow"><button class="btn" id="finalBtn">One last thing… tap me 💗</button></div>
+  <div id="finalMessage" class="reasonbox" hidden><div id="finalText">If you made it all the way here, you owe me one very big hug. No negotiations. ♡</div></div>
+</section>
+</main>
+<footer>made for GAURI BABY, with a full heart <span class="heart">♥</span><br><span class="small">a little website, a lot of love.</span></footer>
+<script>
+const reasons = [
+ "Because you can make me smile at my phone like the biggest idiot. ♡",
+ "Because I want to tell you the tiniest things that happen in my day.",
+ "Because your happiness matters to me, even in the little things.",
+ "Because you are my favourite person to annoy. It is my calling. 🎀",
+ "Because talking to you can make a difficult day feel lighter.",
+ "Because I love your little habits, even the ones I tease you about.",
+ "Because you make distance feel a little less far.",
+ "Because I want to celebrate your wins like they're my own.",
+ "Because I can be silly with you and still feel understood.",
+ "Because you're GAURI BABY. Case closed. No further questions. 💗",
+ "Because the thought of making you happy makes me happy.",
+ "Because I love the person you are, not just the way you make me feel.",
+ "Because even a boring conversation with you is better than a boring day without you.",
+ "Because there are a thousand things I love about you and I'm still finding more.",
+ "Because if I had to choose my favourite notification, it would be yours. 📱"
+];
+let lastIndex = 0;
+const reasonEl = document.getElementById('reason');
+document.getElementById('reasonBtn').addEventListener('click',()=>{
+  let next; do { next = Math.floor(Math.random()*reasons.length); } while(next===lastIndex && reasons.length>1);
+  lastIndex=next; reasonEl.textContent=reasons[next];
+});
+document.getElementById('copyReason').addEventListener('click',async()=>{
+  const btn=document.getElementById('copyReason');
+  try{await navigator.clipboard.writeText(reasonEl.textContent);btn.textContent='Copied with love ✓';}
+  catch(e){btn.textContent='Select the text to copy ♡';}
+  setTimeout(()=>btn.textContent='Copy this one',1800);
+});
+document.getElementById('quizForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const data=new FormData(e.target);let score=0;
+  ['q1','q2','q3'].forEach(k=>{if(data.get(k)==='1')score++});
+  const messages=[
+    '0/3?! GAURAV. Baby. We need to schedule a very serious cuddle-and-revision session. 😭💗',
+    '1/3 — hmm. Cute effort, but your girlfriend has prepared extra study materials. 🎀',
+    '2/3 — okayyy, look at you! Almost a certified expert in us. 💗',
+    '3/3 — FULL MARKS! You may collect your prize: one (1) extremely proud girlfriend and unlimited kisses-on-the-forehead energy. 🏆♡'
+  ];
+  document.getElementById('quiz-result').textContent=`You scored ${score}/3. ${messages[score]}`;
+});
+document.getElementById('previewSong').addEventListener('click',()=>{
+  const val=document.getElementById('songUrl').value.trim();
+  if(!val){alert('Paste your song or playlist link first ♡');return;}
+  try{const u=new URL(val);if(!['http:','https:'].includes(u.protocol))throw new Error();document.getElementById('songLink').href=u.href;document.getElementById('songLink').textContent='Open our song ♡ ↗';alert('Song button updated for this preview! To keep it after publishing, paste this URL into the songLink href in index.html.');}
+  catch(e){alert('That link does not look right yet — paste a full link starting with https:// ♡');}
+});
+document.getElementById('finalBtn').addEventListener('click',()=>{
+  const box=document.getElementById('finalMessage');box.hidden=false;
+  document.getElementById('finalText').textContent='Surprise, Gauri Baby: you are loved on the ordinary days, the messy days, the far-away days, and every day in between. I am very, very glad it is you. ♡';
+  document.getElementById('finalBtn').textContent='You found the secret 💌';
+});
+</script>
+</body>
+</html>
